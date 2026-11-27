@@ -463,6 +463,7 @@ const INGREDIENTS = [
   { "id": "pasta", "name": "파스타면", "cat": "carb" },
   { "id": "bread", "name": "식빵", "cat": "carb" },
   { "id": "somyeon", "name": "소면", "cat": "carb" },
+  { "id": "kalguksu", "name": "칼국수 사리", "cat": "carb" },
 
   { "id": "salt", "name": "소금", "cat": "etc", "pantry": true },
   { "id": "oil", "name": "식용유", "cat": "etc", "pantry": true },
@@ -482,6 +483,7 @@ const INGREDIENTS = [
   { "id": "sesame", "name": "깨", "cat": "etc" },
   { "id": "syrup", "name": "물엿", "cat": "etc" },
   { "id": "mirin", "name": "맛술", "cat": "etc" },
+  { "id": "dashida", "name": "멸치다시다", "cat": "etc" },
   { "id": "flour", "name": "밀가루", "cat": "etc" }
 ];
 
@@ -842,6 +844,28 @@ const RECIPES = [
       "양파와 다진 마늘을 넣고 2분 더 볶아 주세요.",
       "새우젓 1큰술을 넣고 고루 섞으며 1분간 볶으세요.",
       "후추를 살짝 뿌려 마무리하세요."
+    ]
+  },
+  {
+    "id": "dubu-duruchigi", "name": "두부 두루치기", "cat": "국·찌개", "time": 20, "diff": "보통", "serv": "2인분",
+    "img": "dubu-duruchigi",
+    "desc": "두부를 양파 위에 겹겹이 올려 끓이고 칼국수 사리와 비벼 먹는 얼큰한 한 냄비 요리예요.",
+    "tip": "냄비 바닥에 양파를 먼저 깔아야 두부가 눌어붙지 않아요. 국물이 졸면 물을 조금씩 더해 가며 끓이세요.",
+    "ing": [
+      { "id": "tofu", "amt": "400g(1모)" }, { "id": "onion", "amt": "1개(작은 것)" }, { "id": "green-onion", "amt": "1/2대" },
+      { "id": "kalguksu", "amt": "1인분" }, { "id": "gochugaru", "amt": "3큰술 + 매운 고춧가루 1/2큰술" },
+      { "id": "soy", "amt": "4.5큰술" }, { "id": "mirin", "amt": "4.5큰술" }, { "id": "oyster", "amt": "1.5큰술" },
+      { "id": "sugar", "amt": "1큰술" }, { "id": "garlic", "amt": "1.5큰술" }, { "id": "dashida", "amt": "1큰술" },
+      { "id": "water", "amt": "500ml" }
+    ],
+    "steps": [
+      "양파 1개는 얇게 썰어 냄비 바닥에 골고루 깔아 주세요.",
+      "두부 400g은 1.5cm 두께로 두툼하게 썰어 양파 위에 차례대로 올려 주세요.",
+      "대파 1/2대는 어슷하게 썰어 두부 위에 뿌려 주세요.",
+      "고춧가루 3큰술과 매운 고춧가루 1/2큰술, 진간장 4.5큰술, 맛술 4.5큰술, 굴소스 1.5큰술, 설탕 1큰술, 다진마늘 1.5큰술, 멸치다시다 1큰술을 모두 넣어 주세요.",
+      "물 500ml를 붓고 센 불에서 끓어오르면 중약불로 줄여 5분간 끓여 주세요.",
+      "그사이 다른 냄비에 칼국수 사리 1인분을 삶아 건져 주세요.",
+      "끓인 두부 냄비에 삶은 칼국수 사리를 넣고 국물과 잘 비벼 그릇에 담아 주세요."
     ]
   }
 ];
